@@ -1,8 +1,8 @@
 require 'sinatra'
 require 'twilio-ruby'
 
-@account_sid = 'ACacce7accff8f3b232da7f94d4b7c05ea'
-@auth_token =  'd182a62755fd30ea218f969ad01d523d'
+@account_sid = 'YOUR_ACC_ID'
+@auth_token =  'AUTH_TOKEN'
 
 @client = Twilio::REST::Client.new(@account_sid, @auth_token)
 ACCOUNT = @client.account
