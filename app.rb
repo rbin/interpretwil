@@ -1,5 +1,5 @@
 require 'sinatra'
-require 'twilio-rb'
+require 'twilio-ruby'
 
 @account_sid = 'ACacce7accff8f3b232da7f94d4b7c05ea'
 @auth_token =  'd182a62755fd30ea218f969ad01d523d'
